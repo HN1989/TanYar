@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/darmani_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="1dp"
+                android:layoutDirection="rtl"
+                android:layout_weight="1">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center_horizontal"
+                    android:weightSum="6"
+                    >
+
+                    <TextView
+                        android:id="@+id/darmani_radif"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="center"
+                        android:text="ردیف"
+                        android:textSize="11sp"
+                        android:layout_weight="0.5"
+                        />
+
+                    <TextView
+                        android:id="@+id/darmani_row"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="center"
+                        android:text="شماره"
+                        android:textSize="11sp"
+                        android:layout_weight="0.5"
+                        />
+
+                    <TextView
+                        android:id="@+id/darmani_code"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="center"
+                        android:text="کد"
+                        android:textSize="11sp"
+                        android:layout_weight="0.5"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/darmani_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="center"
+                        android:text="نام محصول"
+                        android:textSize="11sp"
+                        android:layout_weight="1.25"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/darmani_count"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="center"
+                        android:text="تعداد"
+                        android:textSize="11sp"
+                        android:layout_weight="0.5"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/darmani_size"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="center"
+                        android:text="سایز"
+                        android:textSize="11sp"
+                        android:layout_weight="1.25"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/darmani_price"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="center"
+                        android:text="قیمت"
+                        android:textSize="11sp"
+                        android:layout_weight="0.75"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/darmani_total"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="center"
+                        android:text="جمع"
+                        android:textSize="11sp"
+                        android:layout_weight="0.75"
+                        />
+
+                </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:layout_margin="1dp"
+        android:background="#c0c0c0"/>
+
+            </LinearLayout>
+

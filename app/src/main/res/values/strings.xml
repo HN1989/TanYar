@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">دستیار تن یار</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">نام کاربری</string>
+    <string name="hint_email">ایمیل</string>
+    <string name="hint_password">رمز عبور</string>
+    <string name="hint_confirm_password">تایید رمز عبور</string>
+    <string name="text_login">ورود به برنامه</string>
+    <string name="text_register">ثبت نام</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">رمز عبور را وارد کنید</string>
+    <string name="success_message">ثبت نام انجام شد</string>
+    <string name="text_not_member">برای ثبت نام اینجا کلیک کنید</string>
+    <string name="text_already_member">برای ورود اینجا کلیک کنید</string>
+    <string name="error_email_exists">این نام کاربری قبلا ثبت شده است</string>
+    <string name="error_password_match">رمز عبور تطابق ندارد</string>
+    <string name="error_valid_email_password">نام کاربری یا رمز عبور اشتباه است</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+
+</resources>

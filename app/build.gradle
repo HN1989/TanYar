@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'android_key'
+            keyPassword 'malayer39200'
+            storeFile file('E:/AndroidStudioProjects/android_developing.jks')
+            storePassword 'malayer39200'
+        }
+
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "ir.tanyar.app"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 12
+        versionName "beta.12.97"
+    }
+    buildTypes {
+        release {
+            debuggable true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.volley:volley:1.1.0-rc1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'uk.co.chrisjenx:calligraphy:2.3.0'
+    compile 'com.karumi:dexter:4.2.0'
+
+}

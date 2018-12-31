@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="صفحه نخست"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/category"
+            android:title="دسته بندی محصولات و خدمات"
+            android:icon="@drawable/setting"/>
+    </group>
+
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/shop_manage"
+            android:title="مدیریت فروشگاه"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/product_manage"
+            android:title="مدیریت محصولات"
+            android:icon="@drawable/setting"/>
+    </group>
+
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/setting"
+            android:title="تنظیمات"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/logut"
+            android:title="خروج"
+            android:icon="@drawable/ic_home"/>
+    </group>
+</menu>
